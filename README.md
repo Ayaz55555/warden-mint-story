@@ -1,13 +1,14 @@
 
 ---
 
-# AI Crypto Story 🎙️✨
+# 🛡️ Warden Mint Story 🎙️✨
 
-**Transform your crypto transaction history into an epic, AI-narrated saga. Mint your favorite on-chain moments as unique NFTs, share your story, and compete with the community.**
+**Guard your legacy. Mint your story. Own your on-chain identity.**
 
-AI Crypto Story converts the cold, technical data of blockchain transactions into engaging, personalized, and shareable narrative experiences. Instead of deciphering Etherscan logs, you hear a story.
+Warden Mint Story transforms your blockchain journey into a living chronicle — narrated by AI, forged on-chain, and immortalized as NFTs.
+Every trade, swap, or mint becomes part of your evolving digital legend.
 
-> **"You just swapped 0.5 ETH for 20,000 PEPE on Uniswap — a bold move! Let’s hope those frogs can swim."**
+> **"You just safeguarded 1.2 ETH in a brave move to Base — the Warden salutes your strategic foresight."**
 
 ## Table of Contents
 
@@ -25,10 +26,10 @@ AI Crypto Story converts the cold, technical data of blockchain transactions int
 ## ✨ Features
 
 - **Personalized Story Feed:** Connect your wallet to see a chronological, infinitely-scrolling feed of your on-chain activities, narrated by AI.
-- **AI Narration & Voice Synthesis:** Each transaction is analyzed, summarized with personality, and converted to audio using advanced AI models.
-- **Customizable Narrators:** Visit the **Narrator Studio** to choose your AI's voice and narrative theme—from a sarcastic degen to a wise zen master.
+- **AI Narration & Voice Synthesis:** Each transaction is analyzed, summarized with personality, and converted to audio using advanced AI models — now with a guardian theme.
+- **Customizable Narrators:** Visit the **Narrator Studio** to choose your AI's voice and narrative theme—from a vigilant warden to a mystical guardian.
 - **Mint "Moments" as NFTs:** Immortalize your most memorable transactions by minting them as collectible "Story NFTs" with unique, generative artwork.
-- **Community Hub:** Compete on leaderboards for "Top Trader" or "Top Collector," and vote for the community's "Story of the Week."
+- **Community Hub:** Compete on leaderboards for "Top Guardian" or "Top Collector," and vote for the community's "Legend of the Week."
 - **Responsive & Mobile-First:** A seamless experience whether you're on a desktop or on the go.
 
 ## 🛠️ Tech Stack
@@ -59,8 +60,8 @@ Follow these instructions to set up the project locally for development and test
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/pradise2-story-mint-hub.git
-    cd pradise2-story-mint-hub
+    git clone https://github.com/mumair738/warden-mint-story.git
+    cd warden-mint-story
     ```
 
 2.  **Install dependencies:**
