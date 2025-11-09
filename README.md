@@ -58,50 +58,54 @@ Follow these instructions to set up the project locally for development and test
 
 ### Installation
 
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/mumair738/warden-mint-story.git
-    cd warden-mint-story
-    ```
+1️⃣ **Clone & Install**
+```sh
+git clone https://github.com/mumair738/warden-mint-story.git
+cd warden-mint-story
+npm install
+```
 
-2.  **Install dependencies:**
-    ```sh
-    npm install
-    ```
+2️⃣ **Configure Environment**
 
-3.  **Set up environment variables:**
-    Create a `.env` file in the root of the project by copying the example file:
-    ```sh
-    cp .env.example .env
-    ```
-    Now, open the `.env` file and add your WalletConnect Project ID. (See [Environment Variables](#-environment-variables) for more details).
+Create your `.env` file:
+```sh
+cp .env.example .env
+```
 
-4.  **Run the development server:**
-    ```sh
-    npm run dev
-    ```
+Then set your WalletConnect project ID:
+```sh
+VITE_REOWN_PROJECT_ID=your-walletconnect-project-id
+```
 
-The application should now be running at `http://localhost:8080`.
+3️⃣ **Run Dev Server**
+```sh
+npm run dev
+```
+
+Now open: 👉 http://localhost:8080
 
 ## 📂 Project Structure
 
-The codebase is organized logically to promote scalability and maintainability.
-
 ```
-└── src/
-    ├── pages/          # Top-level page components (routes)
-    ├── components/     # Reusable UI components, organized by feature
-    │   ├── layout/     # Main app layout (Header, Sidebar, etc.)
-    │   ├── story/      # Components for the Story Feed
-    │   ├── moments/    # Components for the NFT Moments gallery
-    │   ├── community/  # Components for the Community Hub
-    │   └── ui/         # Base shadcn/ui components
-    ├── types/          # TypeScript interfaces and mock data
-    ├── config/         # Application configuration (e.g., wallet setup)
-    ├── hooks/          # Custom React hooks
-    ├── lib/            # Utility functions
-    ├── App.tsx         # Main application component with routing
-    └── main.tsx        # Application entry point
+warden-mint-story/
+ ├── src/
+ │   ├── pages/
+ │   ├── components/
+ │   │   ├── layout/
+ │   │   ├── story/
+ │   │   ├── moments/
+ │   │   ├── community/
+ │   │   └── ui/
+ │   ├── hooks/
+ │   ├── lib/
+ │   ├── config/
+ │   ├── types/
+ │   ├── App.tsx
+ │   └── main.tsx
+ ├── public/
+ ├── .env.example
+ ├── package.json
+ └── vite.config.ts
 ```
 
 ## ▶️ Available Scripts
