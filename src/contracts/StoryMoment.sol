@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract StoryMoment is ERC721, Ownable {
+contract StoryMoment is ERC721, OWnable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIdCounter;
 
